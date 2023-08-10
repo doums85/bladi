@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+.grid-layout {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
